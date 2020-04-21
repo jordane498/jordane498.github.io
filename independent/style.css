@@ -1,0 +1,180 @@
+body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #505962;
+    margin: 0;
+}
+
+.navbar {
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .2rem;
+    background: transparent;
+    
+}
+
+.navbar-brand img{
+    height: 6rem;
+}
+
+.navbar-nav li {
+    padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e8cf5f;
+}
+
+.navbar-brand img{
+    height: 6rem;
+    padding-left: 7rem;
+}
+/*-- Langing Page */
+
+.home-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: url("img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.home-inner h1 {
+  font-family: 'Varela Round';
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.home-inner h2 {
+  max-width: 20rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .home-inner h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-inner {
+    height: 100vh;
+    padding: 0;
+  }
+  .home-inner h1 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    letter-spacing: 0.8rem;
+  }
+  .home-inner h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+}
+
+
+.caption {
+    width: 60%;
+    max-width: 90%;
+    position: absolute;
+    top: 48%;
+    left: 28%;
+    z-index: 1;
+    color: white;
+    text-transform: lowercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+}
+
+.socialmedia {
+    text-align:center;
+    margin-top: 10%;
+    color: white;
+}
+.socialmedia a {
+    color:#fff;
+}
+
+.socialmedia a:hover {
+    color:#000;
+}
+
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+  background-color: #b6a426;
+}
+
+.btn-primary:hover {
+  background-color: #ddcc58;
+}
+
+.btn-primary:focus {
+  background-color: #b6a426;
+  color: #fff;
+}
+
+.music {
+    padding: 20px;
+
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+footer {
+  padding: 5rem 0;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
