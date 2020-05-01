@@ -1,0 +1,173 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+.home-inner {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 5rem;
+  padding: 15rem 0;
+  background-image: url(images/kekeb.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+.bg-dark {
+    background: transparent !important;;
+    position:fixed;
+    width: 100%;
+    transition:750ms ease;
+}
+
+.navbar {
+    text-transform: lowercase;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.bg-dark.scrolled{
+   background: #161616 !important;;    
+}
+.navbar-brand img{
+    height: 6rem;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+section {
+  padding: 150px 0;
+}
+
+.caption {
+    width: 45%;
+    max-width: 45%;
+    position: absolute;
+    top: 30%;
+    right: 0%;
+    z-index: 1;
+    color: white;
+    text-transform: lowercase;
+}
+
+.caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    font-size: 2rem;
+}
+
+.modal-body p {
+    text-align: left;
+}
+em {
+  font-style: italic;
+    color: #af9d00;
+}
+
+.socialmedia {
+    top: 300px;
+    z-index: 1;
+    color: white;
+    text-transform: lowercase;
+    text-align:center;
+    color: white;
+    position:absolute;
+    right:25%;
+    width:50%;
+    max-width:370px;
+}
+
+
+.socialmedia a {
+    color:#fff;
+}
+
+.socialmedia a:hover {
+    color:#f0d805;
+}
+
+section {
+  padding: 3rem 0;
+  text-align:center;
+}
+
+
+.sb {
+    background:linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%) !important;
+    color: white;
+    padding: 5rem;
+}
+
+
+form-group {
+    padding: 500px;
+}
+.photos {
+    background:linear-gradient(to bottom, #161616 0, rgba(22, 22, 22, .9) 75%, rgba(22, 22, 22, .8) 100%) !important;
+    color: white;
+    padding: 5rem;
+}
+
+
+.bg-light {
+    padding: 5rem;
+}
+
+.btn-lg {
+    border-width: medium;
+    border-radius: 0;
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
+}
+
+.btn-primary {
+  background-color: #b6a426;
+}
+
+.btn-primary:hover {
+  background-color: #ddcc58;
+}
+
+.btn-primary:focus {
+  background-color: #b6a426;
+  color: #fff;
+}
+
+.music {
+    padding: 20px;
+    text-align:center;
+
+}
+
+.bg-black {
+  background-color: #161616 !important;
+}
+
+footer {
+  padding: 5rem 0;
+  color: white;
+}
