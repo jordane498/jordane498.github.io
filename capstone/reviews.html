@@ -131,6 +131,45 @@
     <h5 class="card-title">Averitt Experess</h5>
     <p class="card-text">1005 Enterprise Cir Chesapeake, VA 23321</p>
     <a href="#" class="btn btn-primary">Call</a>
+    <button type="button" class="btn btn-primary float-sm-right" data-toggle="modal" data-target="#exampleModal">
+                                          Write a Review
+                                        </button>
+							</div>
+							
+                            <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Write a Review</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <div class="input-group">
+                                                    <div class="input-group">
+                                                  <div class="input-group-prepend">
+                                                    <span class="input-group-text">Review</span>
+                                                  </div>
+                                                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                                                </div>
+                                                  </div>
+                                                  <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your rating</label>
+              <div class="col-md-9">
+                <input id="input-21e" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="xs" >
+              </div>
+            </div>
+
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Submit</button>
+                                              </div>
+                                            </div>
+                                            </div>
+       
   </div>
 </div><br>
       <div class="container">
@@ -234,7 +273,8 @@
 					<div class="row">
 						<div class="col-sm-3">
 							<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
-							<div class="review-block-name"><a href="#">nktailor</a></div>
+							<div class="review-block-name"><a href="#">jordan</a>
+                            </div>
 							<div class="review-block-date">April 2, 2020<br/>1 month ago</div>
 						</div>
 						<div class="col-sm-9">
@@ -251,12 +291,45 @@
 								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
 								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 								</button>
-								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
+								
 							</div>
 							<div class="review-block-title">this was a good drop off location</div>
-							<div class="review-block-description">I had a pretty good experience with them. The lady who greeted me was very nice and helped me out with the unloading of my materials.</div>
+							<div class="review-block-description">I had a pretty good experience with them. The lady who greeted me was very nice and helped me out with the unloading of my materials.<br>
+                            
+                             <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-primary float-sm-right" data-toggle="modal" data-target="#exampleModal">
+                                          Edit Review
+                                        </button>
+							</div>
+							
+                            <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                          <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">this was a good drop off location</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span>
+                                                </button>
+                                              </div>
+                                              <div class="modal-body">
+                                                <div class="input-group">
+                                                    <div class="input-group">
+                                                  <div class="input-group-prepend">
+                                                    <span class="input-group-text">Summary of Experience</span>
+                                                  </div>
+                                                  <textarea class="form-control" aria-label="With textarea"></textarea>
+                                                </div>
+                                                  </div>
+
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
 						</div>
 					</div>
 					<hr/>
